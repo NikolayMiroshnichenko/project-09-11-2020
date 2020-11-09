@@ -1,0 +1,156 @@
+@media (max-width: 1190px) {
+  .container {
+    width: 968px;
+  }
+  .main-title {
+    font-size: 60px;
+  }
+  .main-title span {
+    font-size: 40px;
+  }
+  .services-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .services-second__item,
+  .services-list__item {
+    width: 400px;
+  }
+}
+@media (max-width: 990px) {
+  .container {
+    width: 720px;
+  }
+  .autor-title,
+  .services-title,
+  .main-title {
+    font-size: 40px;
+  }
+  .autor-title span,
+  .main-title span {
+    font-size: 30px;
+  }
+  .main-apple,
+  .main-ice,
+  .main-coctail,
+  .main-kiwi,
+  .main-orange {
+    display: none;
+  }
+  .main-block {
+    padding-bottom: 80px;
+  }
+  .main-title::before,
+  .main-title::after {
+    width: 30px;
+    height: 30px;
+  }
+  .main-title::before {
+    left: -40px;
+  }
+  .main-title::after {
+    right: -40px;
+  }
+  .autor-block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .autor-block__img {
+    width: 50%;
+    position: relative;
+    transform: translateY(60px);
+  }
+  .autor-list {
+    width: 70%;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-item__link {
+    text-align: center;
+  }
+}
+@media (max-width: 740px) {
+  .container {
+    width: 90%;
+  }
+  br {
+    display: none;
+  }
+  .header-list__text {
+    font-size: 16px;
+  }
+  .autor-title,
+  .services-title,
+  .main-title {
+    font-size: 28px;
+  }
+  .autor-title span,
+  .main-title span {
+    font-size: 20px;
+  }
+  .main-title::before,
+  .main-title::after {
+    width: 20px;
+    height: 20px;
+  }
+  .main-title::before {
+    left: -10px;
+  }
+  .main-title::after {
+    right: -10px;
+  }
+  .main-btn {
+    width: 220px;
+    font-size: 16px;
+  }
+  .main-text {
+    font-size: 16px;
+  }
+  .services-list {
+    margin-top: 0;
+  }
+  .services-second__item,
+  .services-list__item {
+    width: 90%;
+  }
+  .autor-block__img {
+    width: 80%;
+  }
+  .autor-list {
+    width: 100%;
+  }
+  .autor-title-br {
+    display: block;
+  }
+  .services-second__item::before,
+  .services-list__item::before {
+    width: 80px;
+    height: 60px;
+  }
+  .services-second__item:nth-child(4)::before {
+    top: -10px;
+  }
+  .footer-item__text,
+  .footer-item__link {
+    font-size: 12px;
+  }
+
+}
+@media (max-width: 340px) {
+  .autor-title,
+  .services-title,
+  .main-title {
+    font-size: 24px;
+  }
+  .autor-title span,
+  .main-title span {
+    font-size: 20px;
+  }
+  .header-list__text {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+}
